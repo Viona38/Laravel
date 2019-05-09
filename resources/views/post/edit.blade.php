@@ -29,16 +29,16 @@
               <input type="text" class="form-control" name="judul" value="{{$book->judul}}"/>
           </div>
           <div class="form-group">
-              <label for="price">Pengarang</label>
+              <label for="price">Penerbit</label>
               <input type="text" class="form-control" name="penerbit" value="{{$book->penerbit}}"/>
           </div>
           <div class="form-group">
-              <label for="quantity">Penerbit</label>
-              <input type="text" class="form-control" name="tahun_terbit" value="{{$book->tahun_terbit}}"/>
+              <label for="quantity">Tahun Terbit</label>
+              <input type="number" class="form-control" name="tahun_terbit" value="{{$book->tahun_terbit}}"/>
           </div>
           <div class="form-group">
-              <label for="quantity">Tahun Terbit</label>
-              <input type="number" class="form-control" name="pengarang" value="{{$book->pengarang}}"/>
+              <label for="quantity">Pengarang</label>
+              <input type="text" class="form-control" name="pengarang" value="{{$book->pengarang}}"/>
           </div>
           <button type="submit" class="btn btn-primary">Update</button>
       </form>

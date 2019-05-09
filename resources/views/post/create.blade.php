@@ -1,6 +1,6 @@
 @extends('layout')
-
 @section('content')
+
 <style>
   .uper {
     margin-top: 40px;
@@ -32,7 +32,7 @@
           </div>
           <div class="form-group">
               <label for="quantity">Tahun Terbit</label>
-              <input type="text" class="form-control" name="tahun_terbit"/>
+              <input type="number" class="form-control" name="tahun_terbit"/>
           </div>
           <div class="form-group">
               <label for="quantity">Pengarang</label>
